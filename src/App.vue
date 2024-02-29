@@ -1,5 +1,6 @@
 <script setup>
-import router from './router';
+import router from '@/router';
+import { RouterLink } from 'vue-router';
 import axios from 'axios';
 import { useAuthStore } from "./stores/AuthStore.js";
 

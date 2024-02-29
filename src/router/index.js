@@ -9,9 +9,11 @@ import EditRoomView from '../views/Room/EditRoomView.vue'
 import SeeRoomView from '../views/Room/SeeRoomView.vue';
 import EmployeeView from "../views/Employees/EmployeeView.vue";  // Hodimlar View
 import AddEmployeeView from "../views/Employees/AddEmployeeView.vue";
+import EditEmployeeView from "..//views/Employees/EditEmployeeView.vue";
 import GuestsView from '../views/Guests/GuestsView.vue'     //Mehmonlar View
 import GuestsAddView from '../views/Guests/GuestsAddView.vue'
-import TashkilotlarView from '..//views/TashkilotlarView.vue'
+import OrganizationView from "..//views/Organizations/OrganizationView.vue";  //  Tashkilotlar View
+import OrganizationAddView from '..//views/Organizations/OrganizationAddView.vue'
 import SmSView from '..//views/SmSView.vue'
 // import RegisterView from '../views/RegisterView.vue'
 
@@ -71,6 +73,10 @@ const router = createRouter({
           path: "/employee/AddEmployee",
           component: AddEmployeeView,
         },
+        {
+          path: "/employee/EditEmployee/:id",
+          component: EditEmployeeView,
+        },
       ],
       meta: {
         layout: AppLayout,
@@ -94,9 +100,19 @@ const router = createRouter({
       },
     },
     {
-      path: "/tashkilotlar",
-      name: "tashkilotlar",
-      component: TashkilotlarView,
+      path: "/organization",
+      name: "organization",
+
+      children: [
+        {
+          path: "",
+          component: OrganizationView,
+        },
+        {
+          path: "/organization/organizationAdd",
+          component: OrganizationAddView,
+        },
+      ],
       meta: {
         layout: AppLayout,
       },

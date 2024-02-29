@@ -113,7 +113,7 @@ const err = ref(false);
 
 
 
-const SelectDataApiCall = ()=>{
+const SelectDataApiCall = () =>{
 
     axios.get(`/api/Room/get-by-id/ ${editId}`)
     .then((res) => {

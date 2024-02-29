@@ -21,7 +21,7 @@ export const AppNavData = [
   },
   {
     name: "Tashkilotlar",
-    url: "/tashkilotlar",
+    url: "/organization",
     icon: "bxs-business",
   },
   {
