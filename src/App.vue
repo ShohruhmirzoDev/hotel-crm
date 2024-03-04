@@ -1,24 +1,25 @@
 <script setup>
-import router from '@/router';
-import { RouterLink } from 'vue-router';
-import axios from 'axios';
+import router from "@/router";
+import { RouterLink } from "vue-router";
+import axios from "axios";
 import { useAuthStore } from "./stores/AuthStore.js";
 
 // const { state, actions } = useAuthStore()
-const login = sessionStorage.getItem('login');
+const login = sessionStorage.getItem("login");
 
 if (!login) {
-  router.push('/login')
+  router.push("/login");
 }
 if (login) {
-  axios.defaults.headers.common['Authorization'] = `Bearer ${sessionStorage.getItem('login')}`;
+  axios.defaults.headers.common[
+    "Authorization"
+  ] = `Bearer ${sessionStorage.getItem("login")}`;
 }
 
-axios.defaults.baseURL = 'https://hotel-backend.1kb.uz';
+axios.defaults.baseURL = "https://hotel-backend.1kb.uz";
 // actions.login({ email: "abs@gmail.com", password: "Password1" })
 
 // console.log(state.token);
-
 </script>
 
 <template>
@@ -26,42 +27,12 @@ axios.defaults.baseURL = 'https://hotel-backend.1kb.uz';
 </template>
 
 <style>
-button:hover{
+button:hover {
   transform: translateY(-1px);
-}</style>
-
-
+}
+</style>
 
 <!-- https://stackblitz.com/edit/vue-3-pinia-registration-login-example?file=src%2Fstores%2Fauth.store.js -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- 
 <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar"
@@ -74,10 +45,6 @@ button:hover{
       </path>
     </svg>
   </button> -->
-
-
-
-
 
 <!-- <AppLayout>
  

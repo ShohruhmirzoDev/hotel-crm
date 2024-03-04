@@ -66,7 +66,7 @@ import { ref } from "vue";
 
 const loginToken = sessionStorage.getItem("login");
 
-if (!loginToken) {
+if (loginToken) {
   router.push("/");
 }
 const email = ref(null);
