@@ -3,7 +3,7 @@
   <button
     data-modal-target="default-modal"
     data-modal-toggle="default-modal"
-    class="bg-[#696cff] py-[5px] px-3 text-md m-1 text-white rounded-[5px]"
+    class="bg-blue-700 py-1.5 px-5  text-md m-1 text-white rounded-[5px]"
   >
     Positionlarni ko'rish
   </button>

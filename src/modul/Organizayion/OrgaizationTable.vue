@@ -12,7 +12,7 @@
         <label class="text-lg mr-2 text-gray-500">Search :</label>
         <input
           type="search"
-          class="w-[157px] h-[26px] text-sm rounded-md border-gray-300"
+          class="w-48 h-8 text-sm rounded-md border-gray-300"
         />
       </div>
     </div>
@@ -54,21 +54,21 @@
               <div class="xl:w-80 flex items-center">
                 <button
                   @click="DeleteOrganization(item.id)"
-                  class="bg-[#696cff] active:bg-blue-500 xl:py-[5px] py-[7px] flex justify-center items-center px-[16px] text-sm m-1 text-white rounded-[5px]"
+                  class="bg-blue-700 active:bg-blue-500 xl:py-2 py-1.5 flex justify-center items-center px-[16px] text-sm m-1 text-white rounded-2"
                 >
                   <i class="bx bx-trash"></i>
                   <p class="xl:block hidden">O'chirish</p>
                 </button>
 
                 <button
-                  class="bg-[#696cff] active:bg-blue-500 xl:py-[5px] py-[7px] flex justify-center items-center px-[12px] text-sm m-1 text-white rounded-[5px]"
+                  class="bg-blue-700 active:bg-blue-500 xl:py-2 py-1.5 flex justify-center items-center px-2.5 text-sm m-1 text-white rounded-2"
                 >
                   <i class="bx bxs-edit-alt"></i>
                   <p class="xl:block hidden">O'zgartirish</p>
                 </button>
 
                 <button
-                  class="bg-[#696cff] active:bg-blue-500 xl:py-[5px] py-[7px] flex justify-center items-center px-[12px] text-sm m-1 text-white rounded-[5px]"
+                  class="bg-blue-700 active:bg-blue-500 xl:py-2 py-1.5 flex justify-center items-center px-2.5 text-sm m-1 text-white rounded-2"
                 >
                   <i class="bx bxs-bullseye"></i>
                   <p class="xl:block hidden">Ko'rish</p>
@@ -88,17 +88,17 @@
         Previous
       </p>
       <button
-        class="bg-[#696cff] py-[7px] px-[12px] text-md mx-1 text-gray-50 hover:text-white rounded-[5px]"
+        class="bg-blue-700 py-1.5 px-2.5 text-md mx-1 text-gray-50 hover:text-white rounded-2"
       >
         1
       </button>
       <button
-        class="hover:bg-gray-300 bg-gray-200 py-[7px] px-[12px] text-md text-gray-500 hover:text-white rounded-[5px]"
+        class="hover:bg-gray-300 bg-gray-200 py-1.5 px-2.5 text-md text-gray-500 hover:text-white rounded-2"
       >
         2
       </button>
       <button
-        class="hover:bg-gray-300 bg-gray-200 py-[7px] px-[12px] text-md mx-1 text-gray-500 hover:text-white rounded-[5px]"
+        class="hover:bg-gray-300 bg-gray-200 py-1.5 px-2.5 text-md mx-1 text-gray-500 hover:text-white rounded-2"
       >
         3
       </button>

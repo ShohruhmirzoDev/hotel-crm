@@ -1,13 +1,13 @@
 <template >
-	<nav class=" p-2  w-full h-auto  rounded-[5px] mb-8  bg-white">
+	<nav class=" p-2  w-full h-auto  rounded-md mb-8  bg-white">
 		<section class="">
 			<div class="flex justify-between flex-wrap">
 				<input type="search" placeholder="Search..."
-					class="border-[#b0afaf] h-[37px] rounded-lg  lg:w-36 w-full text-[#353333] font-semibold ">
+					class="border-gray-400 h-9 rounded-lg  lg:w-36 w-full text-gray-700 font-semibold ">
 				<div class="md:my-3 sm:my-3 xl:my-0 lg:my-0">
 					<input type="date" class="" required>
 					<input type="date" class="ml-2">
-					<button class="bg-[#696cff] py-[7px] px-[20px] text-[0.75rem]  m-1 text-white rounded-[5px]">
+					<button class="bg-blue-700 py-2 px-5 text-sm  m-1 text-white rounded-md">
 						<i class='bx bx-search text-xl'></i>
 					</button>
 				</div>
@@ -15,12 +15,12 @@
 			<div class="flex justify-between mt-2">
 				<div class="">
 					<button
-						class="bg-[#696cff] py-[5px] px-[13px] text-[0.75rem] m-1 text-white rounded-[5px]">Holatlar</button>
+						class="bg-blue-700 py-1.5 px-4 text-sm m-1 text-white rounded-md">Holatlar</button>
 					<button
-						class="bg-[#696cff] py-[5px] px-[16px] text-[0.75rem] m-1 text-white rounded-[5px]">Katigoriya</button>
+						class="bg-blue-700 py-1.5 px-4 text-sm m-1 text-white rounded-md">Katigoriya</button>
 				</div>
 				<div class="">
-					<button class="bg-[#696cff] py-[5px] px-[15px] text-[0.75rem] m-1 text-white rounded-[5px]"
+					<button class="bg-blue-700 py-1.5 px-4 text-sm m-1 text-white rounded-md"
 						data-modal-target="popup-modal" data-modal-toggle="popup-modal">Zakaz</button>
 				</div>
 			</div>
@@ -48,10 +48,10 @@
 					<h3 class="mb-5 text-xl font-normal text-gray-500 dark:text-gray-400"> Hona boshqaruvi</h3>
 					<div class=" flex justify-between">
 						<div class="mr-8">
-							<input type="search" class="h-[26px] w-full border-2 text-sm rounded-sm"
+							<input type="search" class="h-8 w-full border-2 text-sm rounded-sm"
 								placeholder="Honani qidirish...">
 							<div
-								class="w-[243px] h-[120px] overflow-x-auto overflow-scroll p-1 border-2 mt-1 text-gray-400">
+								class="w-[243px] h-48 overflow-x-auto overflow-scroll p-1 border-2 mt-1 text-gray-400">
 								<p class="w-full py-1 pl-2  hover:bg-slate-200 focus:bg-gray-900 my-1">
 									101 hona
 								</p>
@@ -73,7 +73,7 @@
 							</div>
 						</div>
 
-						<div class="w-[243px] h-[150px] overflow-x-auto overflow-scroll p-1 border-2 mt-1 text-gray-400">
+						<div class="w-[243px] h-48 overflow-x-auto overflow-scroll p-1 border-2 mt-1 text-gray-400">
 							<p class="w-full py-1 pl-2 1 hover:bg-slate-200 focus:bg-gray-900 my-1">
 								Bron
 							</p>
@@ -90,9 +90,9 @@
 					</div>
 					<div class="text-center m-8">
 						<button
-							class="hover:bg-[#696cff] py-[7px] px-[20px] text-[1rem] border-2 border-[#696cff] hover:text-white  m-1 text-[#696cff] rounded-[5px]">Tozalash</button>
+							class="hover:bg-blue-700 py-1.5 px-5 text-sm border-2 border-bbg-blue-700 hover:text-white  m-1 text-bbg-blue-700 rounded-md">Tozalash</button>
 						<button
-							class="bg-[#696cff] py-[7px] px-[20px] text-[1rem]  text-white border-2 border-[#696cff]  m-1 rounded-[5px]">Saqlash</button>
+							class="bg-blue-700 py-1.5 px-5 text-sm  text-white border-2 border-bbg-blue-700  m-1 rounded-md">Saqlash</button>
 					</div>
 				</div>
 			</div>

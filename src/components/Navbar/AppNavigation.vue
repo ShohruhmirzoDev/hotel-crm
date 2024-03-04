@@ -7,7 +7,7 @@
          <img src="https://hoteluz.vercel.app/img/logo.png" class="" />
 
          <RouterLink v-for="item in AppNavData" :to="item.url"
-            class="flex text-[#696cff] items-center w-full p-2 font-bold text-base  transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-white dark:hover:bg-gray-800">
+            class="flex text-[#696cff] items-center w-full p-2 mb-1 font-bold text-base  transition duration-75 rounded-lg group hover:bg-gray-200 dark:text-white dark:hover:bg-gray-800">
             <i class="text-xl bx ml-2" :class="item.icon"></i>
             <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">{{ item.name }}</span>
          </RouterLink>

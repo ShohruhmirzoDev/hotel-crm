@@ -6,9 +6,9 @@
       class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
     >
       <div v-for="item in rooms">
-        <div class="cursor-pointer rounded-md bg-[#71dd37] p-[15px] text-white">
+        <div class="cursor-pointer rounded-md bg-lime-500 p-3 text-white">
           <div class="flex justify-between">
-            <p class="text-[#566a7f] text-2xl font-semibold">
+            <p class="text-gray-400 text-2xl font-semibold">
               {{ item.description }}
             </p>
             <div>
@@ -18,12 +18,12 @@
           <p class="text-xl my-3">Oddiy</p>
           <div class="">
             <button
-              class="bg-[#696cff] py-[5px] px-[15px] text-[0.75rem] m-1 text-white rounded-[5px] active:scale-95"
+              class="bg-blue-700 py-1.5 px-3 text-[0.75rem] m-1 text-white rounded-1.5 active:scale-95"
             >
               Band
             </button>
             <button
-              class="bg-[#696cff] py-[5px] px-[15px] text-[0.75rem] m-1 text-white rounded-[5px] active:scale-95"
+              class="bg-blue-700 py-1.5 px-3 text-[0.75rem] m-1 text-white rounded-1.5 active:scale-95"
             >
               Bron
             </button>
@@ -62,7 +62,7 @@ axios
 // });
 </script>
 
-<!-- <div class="  rounded-md bg-[#8ec5df] p-[15px] text-white">
+<!-- <div class="  rounded-md bg-[#8ec5df] p-3 text-white">
 			<div class="flex justify-between">
 				<p class="text-[#566a7f] text-2xl font-semibold">102 xona</p>
 				<p>ssss</p>
@@ -70,7 +70,7 @@ axios
 			<p class="text-xl my-3">Oddiy</p>
 			<div class="">
 				<button
-					class="bg-[#696cff] py-[5px] px-[15px] text-[0.75rem] m-1 text-white rounded-[5px]">Boshatish</button>
-				<button class="bg-[#696cff] py-[5px] px-[15px] text-[0.75rem] m-1 text-white rounded-[5px]">Band</button>
+					class="bg-blue-700 py-1.5 px-3 text-[0.75rem] m-1 text-white rounded-1.5">Boshatish</button>
+				<button class="bg-blue-700 py-1.5 px-3 text-[0.75rem] m-1 text-white rounded-1.5">Band</button>
 			</div>
 		</div> -->

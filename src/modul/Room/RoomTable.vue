@@ -30,7 +30,7 @@
             </th>
             <th>
               <button
-                class="bg-gray-300 py-[5px] w-[149px] m-1 text-white rounded-[5px]"
+                class="bg-gray-300 py-1.5 w-[149px] m-1 text-white rounded-md"
               >
                 Band-Etilgan
               </button>
@@ -48,20 +48,20 @@
               <div class="w-80">
                 <button
                   @click="DeleteRoom(items.id)"
-                  class="bg-[#696cff] py-[4px] px-[12px] text-[0.75rem] m-1 text-white rounded-[5px]"
+                  class="bg-blue-700 py-1.3 px-3 text-sm m-1 text-white rounded-md"
                 >
                   <i class="bx bx-trash"></i> O'chirish
                 </button>
                 <RouterLink :to="'/room/editroom/' + items.id">
                   <button
-                    class="bg-[#696cff] py-[4px] px-[12px] text-[0.75rem] m-1 text-white rounded-[5px]"
+                    class="bg-blue-700 py-1.3 px-3 text-sm m-1 text-white rounded-md"
                   >
                     <i class="bx bxs-edit-alt"></i> O'zgartirish
                   </button>
                 </RouterLink>
                 <RouterLink :to="'/room/seeroom/' + items.id">
                   <button
-                    class="bg-[#696cff] py-[4px] px-[12px] text-[0.75rem] m-1 text-white rounded-[5px]"
+                    class="bg-blue-700 py-1.3 px-3 text-sm m-1 text-white rounded-md"
                   >
                     <i class="bx bxs-bullseye"></i> Ko'rish
                   </button>

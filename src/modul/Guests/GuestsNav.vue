@@ -5,7 +5,7 @@
       <div class="md:my-3 sm:my-3 xl:my-0 lg:my-0">
         <RouterLink to="/guests/guestAdd">
           <button
-            class="bg-[#696cff] py-[5px] px-[20px] text-md m-1 text-white rounded-[5px]"
+            class="bg-blue-700 py-2 px-5 text-md m-1 text-white rounded-[5px]"
           >
             Mehmon Qo'shish
           </button>

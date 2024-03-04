@@ -66,14 +66,14 @@ import { ref } from "vue";
 
 const loginToken = sessionStorage.getItem("login");
 
-if (loginToken) {
+if (!loginToken) {
   router.push("/");
 }
 const email = ref(null);
 const password = ref(null);
 
 let ban = ref(false);
-
+  
 function login() {
   axios
     .post("/api/Admin/login-admin", {

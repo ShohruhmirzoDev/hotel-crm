@@ -1,11 +1,11 @@
 <template>
-     <nav class="p-2 w-full h-auto rounded-[5px] mb-8 m-1 bg-white shadow-md">
+     <nav class="p-2 w-full h-auto rounded-md mb-8 m-1 bg-white shadow-md">
     <div class="flex justify-between">
       <div class="flex justify-between items-center flex-wrap">
         <button
           data-modal-target="crud-modal"
           data-modal-toggle="crud-modal"
-          class="bg-[#696cff] py-[5px] px-[20px] text-md m-1 text-white rounded-[5px]"
+          class="bg-blue-700 py-1.5 px-5 text-md m-1 text-white rounded-[5px]"
         >
           Position Qo'shish
         </button>
@@ -16,7 +16,7 @@
       <div class="md:my-3 sm:my-3 xl:my-0 lg:my-0">
         <RouterLink to="/employee/AddEmployee">
           <button
-            class="bg-[#696cff] py-[5px] px-[20px] text-md m-1 text-white rounded-[5px]"
+            class="bg-blue-700 py-1.5 px-5  text-md m-1 text-white rounded-[5px]"
           >
             Xodim Qo'shish
           </button>

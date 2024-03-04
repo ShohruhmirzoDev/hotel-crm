@@ -13,7 +13,7 @@
         <label class="text-lg mr-2 text-gray-500">Search :</label>
         <input
           type="search"
-          class="w-[157px] h-[26px] text-sm rounded-md border-gray-300"
+          class="w-48 h-8 text-sm rounded-md border-gray-300"
         />
       </div>
     </div>
