@@ -96,12 +96,12 @@
         1
       </button>
       <button
-        class="hover:bg-gray-300 bg-gray-200 py-[7px] px-[12px] text-md text-gray-500 hover:text-white  rounded-md hover:bg-blue-600"
+        class=" bg-gray-200 py-[7px] px-[12px] text-md text-gray-500 hover:text-white  rounded-md hover:bg-blue-600"
       >
         2
       </button>
       <button
-        class="hover:bg-gray-300 bg-gray-200 py-[7px] px-[12px] text-md mx-1 text-gray-500 hover:text-white  rounded-md hover:bg-blue-600"
+        class=" bg-gray-200 py-[7px] px-[12px] text-md mx-1 text-gray-500 hover:text-white  rounded-md hover:bg-blue-600"
       >
         3
       </button>
